@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF.8">-
+    <title>Form Without Semantic Html</title>
+
+</head>
+<body>
+    <h1>form without semantic Html</h1>
+    <form>
+        <label for="fullName">Full Name:</lable>
+        <input type="text id="fullName" name="fullName"required>
+
+        <lable for="email">Email:</lable>
+        <input type=:email" id="email" name="email" required>
+
+        <lable for="password">Password:</lable>
+        <input type="password" id="password" name="password" required>
+
+        <lable for="gender">Gender:</lable>
+        <select id="gender" name="gender"> 
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select> 
+
+        <lable for="newsletter">Subscribe to Newsletter:</lable>
+        <input type="checkbox" id="newsletter" name="newsletter">
+
+        <lable for="comments">comments:</lable>
+        <textarea id="comments" name="comments" rows="4"></textarea>
+
+        <button type="submit">Submit</button>
+     </form>
+
+ </body>
+
+ </html>
